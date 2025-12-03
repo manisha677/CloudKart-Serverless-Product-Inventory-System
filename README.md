@@ -103,5 +103,18 @@ After deployment, you can test the APIs using:
 
 # Screenshots
 
+1. AWS Lambda Function
+
+This screenshot shows the deployed Lambda function used to handle product inventory logic.
+
+| Screenshot | Preview |
+|------------|---------|
+| Lambda Function | ![Lambda](Screenshots/lambda.png) |
+| Lambda Deployment Overview | ![Lambda Deployment](Screenshots/lambda%20deployment.png) |
+
+
+
+
+
  6. Technologies Used
  7. Author
