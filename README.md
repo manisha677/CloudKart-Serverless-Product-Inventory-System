@@ -18,8 +18,65 @@ CloudKart is a serverless inventory management system that allows businesses to 
  
  ° Fully deployable via Serverless Framework
  
- 2. Architecture
- 3. Installation & Setup
+ # Architecture
+ 
+ # Installation & Setup
+ 
+ 1. Clone the Repository
+    
+
+git clone https://github.com/manisha677/CloudKart-Serverless-Product-Inventory-System.git
+cd CloudKart-Serverless-Product-Inventory-System
+
+
+2. Install Dependencies
+
+Ensure you have Node.js and npm installed. Then run:
+
+npm install
+
+
+3. Configure AWS Credentials
+   
+Make sure AWS CLI is installed. Configure your credentials:
+
+aws configure
+
+Provide your AWS Access Key, Secret Key, and Region (us-east-1).
+
+4. Deploy the Serverless Application
+
+serverless deploy
+
+This will deploy Lambda functions, API Gateway endpoints, and DynamoDB tables.
+
+5. Get the API Endpoint
+   
+After deployment, your terminal will show something like:
+
+POST - https://<your-api-id>.execute-api.us-east-1.amazonaws.com/products
+
+
+6. Test the API
+
+curl -X POST https://<your-api-id>.execute-api.us-east-1.amazonaws.com/products \
+-H "Content-Type: application/json" \
+-d '{"name":"Sample Product","price":100,"category":"Electronics"}'
+
+
+7. Successful response example:
+
+{
+  "message": "Product created",
+  "data": {
+    "id": "97e0f564-2174-4752-86f3-f7383301241d",
+    "name": "Sample Product",
+    "price": 100,
+    "category": "Electronics",
+    "createdAt": 1764753779859
+  }
+}
+
  4. Usage
  5. Screenshots
  6. Technologies Used
