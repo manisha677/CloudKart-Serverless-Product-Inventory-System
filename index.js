@@ -1,12 +1,15 @@
-// index.js - Sample CloudKart Lambda function
+// index.js - Lambda function for creating a product
 
-const { v4: uuid } = require('uuid');
-const { DynamoDBClient } = require('@aws-sdk/client-dynamodb');
-const { DynamoDBDocumentClient, PutCommand } = require('@aws-sdk/lib-dynamodb');
+import { v4 as uuid } from 'uuid';
+import { DynamoDBClient } from '@aws-sdk/client-dynamodb';
+import { DynamoDBDocumentClient, PutCommand } from '@aws-sdk/lib-dynamodb';
 
-const client = DynamoDBDocumentClient.from(new DynamoDBClient({ region: 'ap-south-1' }));
+// Use the same region as your Lambda deployment
+const REGION = process.env.AWS_REGION || 'us-east-1';
 
-exports.createProduct = async (event) => {
+const client = DynamoDBDocumentClient.from(new DynamoDBClient({ region: REGION }));
+
+export const createProduct = async (event) => {
     try {
         const body = JSON.parse(event.body);
 
@@ -32,7 +35,7 @@ exports.createProduct = async (event) => {
         console.error(err);
         return {
             statusCode: 500,
-            body: JSON.stringify({ error: "Internal Server Error" })
+            body: JSON.stringify({ error: "Internal Server Error", details: err.message })
         };
     }
 };
