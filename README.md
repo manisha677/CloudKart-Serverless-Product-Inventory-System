@@ -133,10 +133,44 @@ This screenshot displays the DynamoDB table where product details are stored alo
 | DynamoDB CloudWatch Active Table State| ![DynamoDB CloudWatch Active Table State](https://github.com/manisha677/CloudKart-Serverless-Product-Inventory-System/blob/main/Screenshots/dyynamodbcloudactive.png) |
 
 
+4. CloudWatch Logs
+
+This screenshot shows CloudWatch logs used to track Lambda executions and API request debugging.
+
+
+| Preview | Screenshot |
+|------------|---------|
+| CloudWatch Log Output | ![CloudWatch Log Output](https://github.com/manisha677/CloudKart-Serverless-Product-Inventory-System/blob/main/Screenshots/cloudwatchlog.png) |
+
+
+5. Deployment Status (Serverless Framework Output)
+
+This screenshot shows the successful deployment of the application using the Serverless Framework, confirming that all AWS resources were created and configured properly.
+
+| Preview | Screenshot |
+|------------|---------|
+| Deployment Successful Output | ![Deployment Successful Output](https://github.com/manisha677/CloudKart-Serverless-Product-Inventory-System/blob/main/Screenshots/deplyed.png) |
+
+
+6. API Testing Using Postman
+
+This screenshot demonstrates the API being tested using Postman to verify that the deployed endpoints are working correctly and returning expected responses.
+
+| Preview | Screenshot |
+|------------|---------|
+| Postman Test Result | ![Postman test result](https://github.com/manisha677/CloudKart-Serverless-Product-Inventory-System/blob/main/Screenshots/postmanoutput.png) |
 
 
 
+# Technologies Used
 
-
- 6. Technologies Used
+Technology	Purpose
+Node.js	Backend logic and API development
+Serverless Framework	Deployment and infrastructure automation
+AWS Lambda	Executes backend logic without servers
+Amazon API Gateway	Exposes REST API endpoints
+Amazon DynamoDB	NoSQL database to store product records
+AWS IAM Roles	Secure permissions and access control
+Postman	API testing and validation
+Git & GitHub	Version control and project repository
  7. Author
