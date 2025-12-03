@@ -14,6 +14,7 @@ provider:
     PRODUCTS_TABLE: CloudKartProducts
   iam:
     role:
+      name: cloudkart-lambda-role
       statements:
         - Effect: Allow
           Action:
