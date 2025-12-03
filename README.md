@@ -164,13 +164,20 @@ This screenshot demonstrates the API being tested using Postman to verify that t
 
 # Technologies Used
 
-|Technology	| Purpose |
-|Node.js	| Backend logic and API development |
-|Serverless Framework	| Deployment and infrastructure automation |
-|AWS Lambda	| Executes backend logic without servers |
-|Amazon API Gateway	| Exposes REST API endpoints |
-|Amazon DynamoDB | NoSQL database to store product records |
-|AWS IAM Roles	| Secure permissions and access control |
-|Postman |	API testing and validation |
-|Git & GitHub	| Version control and project repository |
+Technology Purpose 
+Node.js	: Backend logic and API development 
+
+Serverless Framework	: Deployment and infrastructure automation 
+
+AWS Lambda	: Executes backend logic without servers 
+
+Amazon API Gateway	: Exposes REST API endpoints 
+
+Amazon DynamoDB : NoSQL database to store product records 
+
+AWS IAM Roles	: Secure permissions and access control 
+
+Postman :	API testing and validation 
+
+Git & GitHub	: Version control and project repository 
  7. Author
