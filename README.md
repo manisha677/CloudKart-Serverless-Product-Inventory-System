@@ -107,7 +107,7 @@ After deployment, you can test the APIs using:
 
 This screenshot shows the deployed Lambda function used to handle product inventory logic.
 
-| Screenshot | Preview |
+| Preview | Screenshot |
 |------------|---------|
 | Lambda Function | ![Lambda](Screenshots/lambda.png) |
 | Lambda Deployment Overview | ![Lambda Deployment](Screenshots/lambda%20deployment.png) |
@@ -116,10 +116,10 @@ This screenshot shows the deployed Lambda function used to handle product invent
 
 This screenshot shows the API Gateway used to expose Lambda as a REST API endpoint.
 
-| Screenshot | Preview |
+| Preview | Screenshot|
 |------------|---------|
 | API Gateway | ![api_gateway](Screenshots/api_gateway.png) |
-| Testing via terminal | ![testing via ubuntu terminal](Screenshots/testinginterminal.png) |
+| Testing via terminal | ![testing via terminal](https://github.com/manisha677/CloudKart-Serverless-Product-Inventory-System/blob/main/Screenshots/testingin%20terminal.png) |
 
 Testing via Terminal	
 
