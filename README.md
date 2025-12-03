@@ -28,7 +28,9 @@ CloudKart is a serverless inventory management system that allows businesses to 
 
 **```bash**
 git clone https://github.com/manisha677/CloudKart-Serverless-Product-Inventory-System.git
-             cd CloudKart-Serverless-Product-Inventory-System
+**```**
+
+     cd CloudKart-Serverless-Product-Inventory-System
 **```**
 
 2. Install Dependencies
