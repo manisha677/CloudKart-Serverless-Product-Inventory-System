@@ -1,8 +1,6 @@
 org: manishachoudhary12
 service: cloudkart-serverless-Product-Inventory-System
 
-frameworkVersion: '4'
-
 plugins:
   - serverless-offline
 
@@ -45,6 +43,4 @@ resources:
           - AttributeName: id
             KeyType: HASH
         BillingMode: PAY_PER_REQUEST
-
-
 
