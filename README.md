@@ -112,6 +112,17 @@ This screenshot shows the deployed Lambda function used to handle product invent
 | Lambda Function | ![Lambda](Screenshots/lambda.png) |
 | Lambda Deployment Overview | ![Lambda Deployment](Screenshots/lambda%20deployment.png) |
 
+2. Amazon API Gateway
+
+This screenshot shows the API Gateway used to expose Lambda as a REST API endpoint.
+
+| Screenshot | Preview |
+|------------|---------|
+| API Gateway | ![api_gateway](Screenshots/api_gateway.png) |
+| Testing via terminal | ![testing via ubuntu terminal](Screenshots/testinginterminal.png) |
+
+Testing via Terminal	
+
 
 
 
