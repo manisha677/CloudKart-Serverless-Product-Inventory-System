@@ -10,8 +10,16 @@ provider:
   name: aws
   runtime: nodejs20.x
   region: us-east-1
-  environment:
-    PRODUCTS_TABLE: CloudKartProducts
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:PutItem
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:UpdateItem
+      Resource: "*"
+  roleName: cloudkart-lambda-role
+
 
 functions:
   createProduct:
