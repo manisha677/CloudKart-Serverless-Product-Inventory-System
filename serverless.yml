@@ -3,6 +3,9 @@ service: cloudkart-serverless-Product-Inventory-System
 
 frameworkVersion: '4'
 
+plugins:
+  - serverless-offline
+
 provider:
   name: aws
   runtime: nodejs20.x
@@ -31,4 +34,5 @@ resources:
           - AttributeName: id
             KeyType: HASH
         BillingMode: PAY_PER_REQUEST
+
 
