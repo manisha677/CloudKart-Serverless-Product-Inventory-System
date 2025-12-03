@@ -190,7 +190,9 @@ Git & GitHub	: Version control and project repository
 # Author
 
 MANISHA CHOUDHARY : 
+
 Email: manishachoudhary@example.com
+
 GitHub: github.com/manisha677
 
 
