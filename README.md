@@ -90,7 +90,18 @@ After deployment, your terminal will show something like:
     }
     }
 **** 
- 4. Usage
- 5. Screenshots
+# Usage
+
+After deployment, you can test the APIs using:
+
+****
+    # Create a product
+    curl -X POST https://<your-api-endpoint>/products \
+    -H "Content-Type: application/json" \
+    -d '{"name":"Sample Product","price":100,"category":"Electronics"}'
+****
+
+# Screenshots
+
  6. Technologies Used
  7. Author
