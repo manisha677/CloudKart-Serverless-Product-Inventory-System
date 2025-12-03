@@ -105,7 +105,8 @@ After deployment, you can test the APIs using:
 
 1. AWS Lambda Function
 
-This screenshot shows the deployed Lambda function used to handle product inventory logic.
+  This screenshot shows the deployed Lambda function used to handle product inventory logic.
+  
 
 | Preview | Screenshot |
 |------------|---------|
@@ -115,7 +116,8 @@ This screenshot shows the deployed Lambda function used to handle product invent
 
 2. Amazon API Gateway
 
-This screenshot shows the API Gateway used to expose Lambda as a REST API endpoint.
+   This screenshot shows the API Gateway used to expose Lambda as a REST API endpoint.
+   
 
 | Preview | Screenshot|
 |------------|---------|
@@ -125,7 +127,8 @@ This screenshot shows the API Gateway used to expose Lambda as a REST API endpoi
 
 3. DynamoDB Table
 
-This screenshot displays the DynamoDB table where product details are stored along with CRUD operations.
+   This screenshot displays the DynamoDB table where product details are stored along with CRUD operations.
+   
 
 | Preview | Screenshot|
 |------------|---------|
@@ -135,7 +138,7 @@ This screenshot displays the DynamoDB table where product details are stored alo
 
 4. CloudWatch Logs
 
-This screenshot shows CloudWatch logs used to track Lambda executions and API request debugging.
+   This screenshot shows CloudWatch logs used to track Lambda executions and API request debugging.
 
 
 | Preview | Screenshot |
@@ -145,7 +148,8 @@ This screenshot shows CloudWatch logs used to track Lambda executions and API re
 
 5. Deployment Status (Serverless Framework Output)
 
-This screenshot shows the successful deployment of the application using the Serverless Framework, confirming that all AWS resources were created and configured properly.
+  This screenshot shows the successful deployment of the application using the Serverless Framework, confirming that all AWS resources were created and configured properly.
+  
 
 | Preview | Screenshot |
 |------------|---------|
@@ -154,7 +158,8 @@ This screenshot shows the successful deployment of the application using the Ser
 
 6. API Testing Using Postman
 
-This screenshot demonstrates the API being tested using Postman to verify that the deployed endpoints are working correctly and returning expected responses.
+  This screenshot demonstrates the API being tested using Postman to verify that the deployed endpoints are working correctly and returning expected responses.
+  
 
 | Preview | Screenshot |
 |------------|---------|
@@ -164,7 +169,7 @@ This screenshot demonstrates the API being tested using Postman to verify that t
 
 # Technologies Used
 
-Technology Purpose 
+ 
 Node.js	: Backend logic and API development 
 
 Serverless Framework	: Deployment and infrastructure automation 
@@ -180,4 +185,13 @@ AWS IAM Roles	: Secure permissions and access control
 Postman :	API testing and validation 
 
 Git & GitHub	: Version control and project repository 
- 7. Author
+
+
+# Author
+
+MANISHA CHOUDHARY : 
+Email: manishachoudhary@example.com
+GitHub: github.com/manisha677
+
+
+If you like this project, feel free to ⭐ the repository!
