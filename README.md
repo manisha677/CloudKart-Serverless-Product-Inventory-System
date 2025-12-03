@@ -112,6 +112,7 @@ This screenshot shows the deployed Lambda function used to handle product invent
 | Lambda Function | ![Lambda](Screenshots/lambda.png) |
 | Lambda Deployment Overview | ![Lambda Deployment](Screenshots/lambda%20deployment.png) |
 
+
 2. Amazon API Gateway
 
 This screenshot shows the API Gateway used to expose Lambda as a REST API endpoint.
@@ -121,7 +122,17 @@ This screenshot shows the API Gateway used to expose Lambda as a REST API endpoi
 | API Gateway | ![api_gateway](Screenshots/api_gateway.png) |
 | Testing via terminal | ![testing via terminal](https://github.com/manisha677/CloudKart-Serverless-Product-Inventory-System/blob/main/Screenshots/testingin%20terminal.png) |
 
-Testing via Terminal	
+
+3. DynamoDB Table
+
+This screenshot displays the DynamoDB table where product details are stored along with CRUD operations.
+
+| Preview | Screenshot|
+|------------|---------|
+| Dynamodb table  | ![dyanamodb table](https://github.com/manisha677/CloudKart-Serverless-Product-Inventory-System/blob/main/Screenshots/dynamodbtable.png) |
+| DynamoDB CloudWatch Active Table State| ![DynamoDB CloudWatch Active Table State](https://github.com/manisha677/CloudKart-Serverless-Product-Inventory-System/blob/main/Screenshots/dyynamodbcloudactive.png) |
+
+
 
 
 
