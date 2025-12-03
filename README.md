@@ -26,19 +26,19 @@ CloudKart is a serverless inventory management system that allows businesses to 
     
 # Bash commands
 
-**```bash**
-git clone https://github.com/manisha677/CloudKart-Serverless-Product-Inventory-System.git
+
+    git clone https://github.com/manisha677/CloudKart-Serverless-Product-Inventory-System.git
 **```**
 
-     cd CloudKart-Serverless-Product-Inventory-System
+    cd CloudKart-Serverless-Product-Inventory-System
 **```**
 
 2. Install Dependencies
 
 Ensure you have Node.js and npm installed. Then run:
 
-**```bash**
-npm install
+
+    npm install
 **```**
 
 
